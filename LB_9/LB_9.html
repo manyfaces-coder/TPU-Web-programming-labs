@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LB_9</title>
+</head>
+
+<body>
+    <h1>Лабараторная работа №9</h1>
+    <h2>Условия</h2>
+    <span><strong>Проверьте, состоит ли данная строка только из букв и пробелов, и все ли буквы в
+        нижнем регистре.</strong></span>
+    <h2>Решение</h2>
+    <span>Вводите строку</span>
+    <br></br>
+        <div>
+            <label>
+                Результат обработки: 
+                <input id='instr' type="text" name="array" step="any" placeholder="введите строку" required>
+            </label>
+        </div>
+        <div style="padding-top:10px; padding-left: 80px;">
+            <button onclick="getElementById('result').textContent = process_string(getElementById('instr').value)" type="submit">Обработать</button>
+        </div>
+        <textarea  type="text" size="135" style="font-size: 18px" id="result" disabled> </textarea>
+
+    <script src="LB_9_script.js"></script>
+</body>
