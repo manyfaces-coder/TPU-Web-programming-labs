@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ЛБ_12</title>
+</head>
+<body>
+    <h1>Лабараторная работа №12</h1>
+    <h2>Вариант №5</h2>
+    <h2>Условия</h2>
+    <span><strong>Напишите класс с именем Name и создайте следующие атрибуты по имени и
+        фамилии (как fname и lname): атрибут с именем fullname, который возвращает
+        имя и фамилию; атрибут инициалов, который возвращает первые буквы имени и
+        фамилии. Поместите расширение «.» между двумя буквами. Не забудьте также
+        разрешить доступ к атрибутам fname и lname по отдельности.</strong></span>
+    <h2>Решение</h2>
+    <p> Введите имя
+        <input type="text" id="input_fname">
+    </p>
+
+    <p> Введите фамилию
+        <input type="text" id="input_lname">
+    </p>
+
+    <input type="submit" onclick="get_answer()" value="Получить">
+    <br>
+    <span id="result_name"></span>
+    <br>
+    <span id="result_last_name"></span>
+    <br>
+    <span id="result_full_name"></span>
+    <br>
+    <span id="result_initials"></span>
+
+    <script src="LB_12.js"></script>
+</body>
+</html>
