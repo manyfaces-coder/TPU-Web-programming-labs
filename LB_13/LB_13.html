@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ЛБ_13</title>
+</head>
+<body>
+    <h1>Лабараторная работа №13</h1>
+    <h2>Вариант №4</h2>
+    <h2>Условия</h2>
+    <span><strong>Напишите функцию для добавления строк в HTML-таблицу.</strong></span>
+    <h2>Решение</h2>
+
+    <input type="submit" onclick="add_string('table_input_str')" value="Добавить строку">
+    <input type="submit" onclick="del_string('table_input_str')" value="Убрать строку">
+
+    <table id="table_input_str" style="border: 1px solid grey">
+        <tr>
+            <th style="border: 1px solid grey">Столбец №1</th>
+            <th style="border: 1px solid grey">Столбец №2</th>
+        </tr> 
+        <tr>
+            <td>строка</td>
+            <td>строка</td>
+        </tr>
+    </table>
+    
+    <script src="LB_13.js"></script>
+</body>
+</html>
